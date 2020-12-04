@@ -222,4 +222,25 @@ nav ul {
   margin: 0% auto;
   width: 60%;
 }
+
+#rooms {
+  display: block;
+  width: 80%;
+  margin: 3% auto;
+}
+
+#rooms h3 {
+  padding: 1%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  letter-spacing: 0.07em;
+}
+
+#rooms p {
+  margin: 0% auto;
+  width: 70%;
+  padding: 1%;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
