@@ -7,6 +7,8 @@
     <title>MountainHotel</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -46,28 +48,90 @@
     </section>
 
     <section id="rooms">
-        <h3>Dummy title goes here</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero animi accusantium corporis. Ratione
-            architecto aspernatur veritatis, aperiam a, similique, quis iste quae in provident laborum qui tempora
-            inventore quam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia maiores neque itaque ex
-            cum culpa soluta beatae consequuntur, exercitationem sequi earum, quia totam porro quo quidem possimus
-            molestias minima necessitatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In soluta facere
-            debitis aliquam id rem dolores fuga officiis modi, est veniam at quidem vitae eligendi non quibusdam quod
-            explicabo laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt nam eligendi
-            aliquam id pariatur error sequi! Sed aspernatur quaerat dolorum laborum ut nemo ea! Ut impedit excepturi
-            suscipit facilis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod provident, obcaecati consequatur
-            sapiente, voluptas dicta, laborum praesentium reprehenderit porro nulla deserunt nam quaerat unde! Iste
-            accusamus laborum nobis laudantium?</p>
-        <!--Carousell-->
-        <div>
-
+        <div id="roomsDiv">
+            <h3>Dummy title goes here</h3>
+            <p class="dummyP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero animi accusantium
+                corporis. Ratione
+                architecto aspernatur veritatis, aperiam a, similique, quis iste quae in provident laborum qui tempora
+                inventore quam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia maiores neque itaque
+                ex
+                cum culpa soluta beatae consequuntur, exercitationem sequi earum, quia totam porro quo quidem possimus
+                molestias minima necessitatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In soluta
+                facere
+                debitis aliquam id rem dolores fuga officiis modi, est veniam at quidem vitae eligendi non quibusdam
+                quod
+                explicabo laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt nam
+                eligendi
+                aliquam id pariatur error sequi! Sed aspernatur quaerat dolorum laborum ut nemo ea! Ut impedit excepturi
+                suscipit facilis.</p>
+            <p class="dummyP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod provident,
+                obcaecati
+                consequatur
+                sapiente, voluptas dicta, laborum praesentium reprehenderit porro nulla deserunt nam quaerat unde! Iste
+                accusamus laborum nobis laudantium?</p>
         </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+
+            <div class="mySlides fade">
+                <div class="slideRoom">
+                    <img src="./images/room-1.jpg" alt="Single Room">
+                    <h4>Single Room</h4>
+                    <p>Lorem ipsum dolor is a simply dummy text of the pronting and typesetting industry.
+                    </p>
+                    <a href="#">View room</a>
+                </div>
+                <div class="slideRoom">
+                    <img src="./images/room-2.jpg" alt="Single Room">
+                    <h4>Single Room</h4>
+                    <p>Lorem ipsum dolor is a simply dummy text of the pronting and typesetting industry.
+                    </p>
+                    <a href="#">View room</a>
+                </div>
+                <div class="slideRoom">
+                    <img src="./images/room-3.jpg" alt="Single Room">
+                    <h4>Single Room</h4>
+                    <p>Lorem ipsum dolor is a simply dummy text of the pronting and typesetting industry.
+                    </p>
+                    <a href="#">View room</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="slideRoom">1</div>
+                <div class="slideRoom">2</div>
+                <div class="slideRoom">3</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="slideRoom">1</div>
+                <div class="slideRoom">2</div>
+                <div class="slideRoom">3</div>
+            </div>
+
+            <!-- Next and previous buttons 
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            -->
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
     </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
+
+
 </body>
 
 </html>

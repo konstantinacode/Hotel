@@ -23,7 +23,7 @@
   z-index: 1;
 }
 
-nav {
+#navDiv nav {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,8 +37,8 @@ nav {
           align-items: center;
 }
 
-nav ul {
-  width: 50%;
+#navDiv nav ul {
+  width: 60%;
 }
 
 .logo {
@@ -224,12 +224,20 @@ nav ul {
 }
 
 #rooms {
+  width: 100%;
+  background-image: url("../images/rooms-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rooms #roomsDiv {
   display: block;
   width: 80%;
   margin: 3% auto;
 }
 
-#rooms h3 {
+#rooms #roomsDiv h3 {
   padding: 1%;
   text-align: center;
   font-weight: normal;
@@ -237,10 +245,149 @@ nav ul {
   letter-spacing: 0.07em;
 }
 
-#rooms p {
+#rooms #roomsDiv .dummyP {
   margin: 0% auto;
   width: 70%;
   padding: 1%;
   text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  /* Hide the images by default */
+}
+
+.slideshow-container .mySlides {
+  display: none;
+  margin: 0% auto;
+  width: 80%;
+  display: block;
+}
+
+.slideshow-container .mySlides .slideRoom {
+  border: 1px solid black;
+  background-color: white;
+  display: inline-block;
+  width: 30%;
+}
+
+.slideshow-container .mySlides .slideRoom img {
+  width: 100%;
+}
+
+.slideshow-container .mySlides .slideRoom h4 {
+  padding: 10% 10% 0% 10%;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.slideshow-container .mySlides .slideRoom p {
+  font-size: 0.9em;
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+}
+
+.slideshow-container .mySlides .slideRoom a {
+  display: block;
+  color: #4f341f;
+  font-weight: bold;
+  padding: 0% 10% 10% 10%;
+}
+
+/* Next & previous buttons */
+/*
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}*/
+/* Position the "next button" to the right */
+/*
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}*/
+/* On hover, add a black background color with a little bit see-through */
+/*
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+*/
+/* Caption text */
+/*
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}*/
+/* Number text (1/3 etc) */
+/*
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+*/
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 40px;
+  margin: 0 2px;
+  background-color: rgba(120, 100, 82, 0.5);
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: rgba(79, 52, 31, 0.9);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */

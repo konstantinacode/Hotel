@@ -1,20 +1,28 @@
 #rooms {
-    display: block;
-    width: 80%;
-    margin: 3% auto;
+    width: 100%;
+    background-image: url("../images/rooms-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    h3 {
-        padding: 1%;
-        text-align: center;
-        font-weight: normal;
-        font-size: 2em;
-        letter-spacing: 0.07em;
-    }
+    #roomsDiv {
+        display: block;
+        width: 80%;
+        margin: 3% auto;
 
-    p {
-        margin: 0% auto;
-        width: 70%;
-        padding: 1%;
-        text-align: center;
+        h3 {
+            padding: 1%;
+            text-align: center;
+            font-weight: normal;
+            font-size: 2em;
+            letter-spacing: 0.07em;
+        }
+
+        .dummyP {
+            margin: 0% auto;
+            width: 70%;
+            padding: 1%;
+            text-align: center;
+        }
     }
 }

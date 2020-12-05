@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
 #navDiv {
     display: flex;
     justify-content: flex-end;
@@ -14,20 +15,22 @@
     position: fixed;
     width: 100%;
     z-index: 1;
-}
 
-nav {
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10%;
-    align-items: center;
+    nav {
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        align-items: center;
 
-    ul {
-        width: 50%;
+        ul {
+            width: 60%;
+        }
+
     }
 
 }
+
 
 
 .logo {
