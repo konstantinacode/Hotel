@@ -43,7 +43,7 @@
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 70%;
 
     #book {
         background-color: rgb(87, 60, 28);
@@ -54,7 +54,7 @@
 .nav-links li {
     list-style: none;
     padding-top: 4px;
-    padding: 2%;
+    padding: 1%;
 
 
     &:hover {
