@@ -229,12 +229,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2%;
 }
 
 #rooms #roomsDiv {
   display: block;
   width: 80%;
-  margin: 3% auto;
+  margin: 1% auto;
+  padding: 1%;
 }
 
 #rooms #roomsDiv h3 {
@@ -255,13 +257,14 @@
 /* Slideshow container */
 .slideshow-container {
   position: relative;
+  padding: 2%;
   /* Hide the images by default */
 }
 
 .slideshow-container .mySlides {
   display: none;
   margin: 0% auto;
-  width: 80%;
+  width: 100%;
   display: block;
 }
 
@@ -269,7 +272,8 @@
   border: 1px solid black;
   background-color: white;
   display: inline-block;
-  width: 30%;
+  width: 31%;
+  margin: 1%;
 }
 
 .slideshow-container .mySlides .slideRoom img {
