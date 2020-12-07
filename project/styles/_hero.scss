@@ -39,3 +39,27 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    #hero-section {
+        .layer {
+            .container {
+                display: block;
+                width: 100%;
+
+                h1 {
+                    display: block;
+                    letter-spacing: 0;
+                    font-size: 2em;
+                    //font-weight: normal;
+                    text-align: center;
+                    width: 100%;
+                }
+
+                p {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

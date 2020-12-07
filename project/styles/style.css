@@ -115,11 +115,11 @@
     overflow-x: hidden;
   }
   #navDiv {
-    height: 8vh;
+    height: 10vh;
   }
   .logo {
     position: absolute;
-    height: 8vh;
+    height: 10vh;
     top: 4vh;
     left: 50%;
     -webkit-transform: translate(-4vh, -50%);
@@ -146,8 +146,8 @@
   .nav-links {
     position: absolute;
     left: 0px;
-    height: 92vh;
-    top: 8vh;
+    height: 90vh;
+    top: 10vh;
     background-color: #768794;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -174,7 +174,7 @@
     display: block;
     position: absolute;
     left: 0px;
-    height: 92vh;
+    height: 90vh;
     top: 0vh;
     padding: 1%;
   }
@@ -264,6 +264,23 @@
 #hero-section .layer .container p {
   margin: 0% auto;
   width: 60%;
+}
+
+@media screen and (max-width: 900px) {
+  #hero-section .layer .container {
+    display: block;
+    width: 100%;
+  }
+  #hero-section .layer .container h1 {
+    display: block;
+    letter-spacing: 0;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+  }
+  #hero-section .layer .container p {
+    width: 90%;
+  }
 }
 
 #rooms {

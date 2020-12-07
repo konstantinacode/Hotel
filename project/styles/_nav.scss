@@ -108,12 +108,12 @@
     }
 
     #navDiv {
-        height: 8vh;
+        height: 10vh;
     }
 
     .logo {
         position: absolute;
-        height: 8vh;
+        height: 10vh;
         top: 4vh;
         left: 50%;
         transform: translate(-4vh, -50%);
@@ -146,8 +146,8 @@
     .nav-links {
         position: absolute;
         left: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 90vh;
+        top: 10vh;
         background-color: rgb(118, 135, 148);
         display: flex;
         flex-direction: column;
@@ -165,22 +165,14 @@
         display: block;
         position: absolute;
         left: 0px;
-        height: 92vh;
+        height: 90vh;
         top: 0vh;
         padding: 1%;
     }
 
+
+
 }
-
-@media screen and (max-height: 816px) {}
-
-
-@media screen and (max-height: 740px) {}
-
-
-@media screen and (max-height: 400px) {}
-
-
 
 
 .nav-active {
