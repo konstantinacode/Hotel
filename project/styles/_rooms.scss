@@ -28,3 +28,22 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #rooms {
+        #roomsDiv {
+            //display: block;
+            width: 100%;
+
+            h3 {
+                //font-size: 1em;
+                letter-spacing: 0;
+                padding: 2%;
+            }
+
+            .dummyP {
+                width: 90%;
+            }
+        }
+    }
+}

@@ -104,13 +104,7 @@
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  .nav-links {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
   }
@@ -266,7 +260,7 @@
   width: 60%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   #hero-section .layer .container {
     display: block;
     width: 100%;
@@ -312,6 +306,19 @@
   width: 70%;
   padding: 1%;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #rooms #roomsDiv {
+    width: 100%;
+  }
+  #rooms #roomsDiv h3 {
+    letter-spacing: 0;
+    padding: 2%;
+  }
+  #rooms #roomsDiv .dummyP {
+    width: 90%;
+  }
 }
 
 /* Slideshow container */
@@ -453,6 +460,21 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .slideshow-container {
+    position: relative;
+    padding: 2%;
+    /* Hide the images by default */
+  }
+  .slideshow-container .mySlides .slideRoom {
+    display: inline-block;
+    width: 100%;
+  }
+  .slideshow-container .mySlides .slideRoom.hidden {
+    display: none;
   }
 }
 
