@@ -167,9 +167,9 @@
   .burger {
     display: block;
     position: absolute;
-    left: 0px;
+    left: 1vh;
     height: 90vh;
-    top: 0vh;
+    top: 2vh;
     padding: 1%;
   }
 }
