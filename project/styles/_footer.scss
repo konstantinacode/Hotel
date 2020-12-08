@@ -26,3 +26,20 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 1200px) {
+    footer {
+        ul {
+            flex-direction: column;
+            padding: 2%;
+
+            li {
+                padding: 0%;
+                display: block;
+                //margin-right: auto;
+                text-align: center;
+            }
+        }
+    }
+
+}
