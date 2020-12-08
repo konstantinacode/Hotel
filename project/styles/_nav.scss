@@ -10,7 +10,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     background-color: rgb(118, 135, 148);
     position: fixed;
     width: 100%;
@@ -110,9 +110,9 @@
     .logo {
         position: absolute;
         height: 10vh;
-        top: 4vh;
+        top: 5vh;
         left: 50%;
-        transform: translate(-4vh, -50%);
+        transform: translate(-5vh, -50%);
 
         img {
             height: 90%;
